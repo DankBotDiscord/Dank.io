@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+	<head>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <title>DanksHome - Homepage</title>
+        <meta charset='UTF-8'>
+    </head>
+    <body>
+            <div class=dropdown><div class=unselectable><center>
+        <ul>
+        <div class=current>
+            <li><a>Home</a></li>
+                </div>
+            <li><a href="forums.html">Forums</a>
+                <ul>
+                    <li><a href="suggestions.html"><div class=smaller>Suggestions</div></a></li>
+                </ul></li>
+                <li><a href="Dankio.html">Dank.io</a></li>
+                
+            <li><a href="profile.html">Login</a>
+</li></ul></center></div></div>
+
+</br></br></br></br></br>
+<script type="text/javascript">
+  if (top.location.href != self.location.href)
+     top.location.href = self.location.href;
+</script>
+	<div class=discord><iframe src="https://discordapp.com/widget?id=374199081712746507&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe></div>
+
+	<div class=twitter><a href="https://twitter.com/DankBotOfficial?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @DankBotOfficial</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+
+	</body>
+</html>
