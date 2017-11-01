@@ -1,0 +1,140 @@
+@font-face {
+    font-family: font1;
+    src: url(princ.ttf);
+}
+
+body {
+	background-color: #ECECEC;
+    background-image: url("donaldtrump.png");
+    background-size: 100% auto;
+}
+
+.text1 {
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+	display: block;
+}
+
+.dropdown {
+	z-index: 999;
+    position: relative;
+	margin: 0px;
+	padding: 0px;
+	position: center;
+	outline-color: white;
+	fit-content;
+	border-radius: 25px;
+	margin-left: 430px;
+	font-family:font1;
+	font-size: 30px;
+	left: 0%
+	right: 0;
+}
+
+.dropdown ul li {
+	
+	float: center;
+	width: 100px;
+	height: 60px;
+	background-color: #333333;
+	opacity: 1.0;
+	line-height: 60px;
+	text-align: center;
+	list-style: none;
+	font-size: 30px;
+	border-radius: 25px;
+	position: relative;
+	margin-left: 15px;
+	left:-%;
+}
+
+.dropdown ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	border-radius: 25px;
+	
+}
+
+.dropdown ul li a:hover {
+	background-color: #454AD5;
+	border-radius: 25px;
+}
+
+.dropdown ul li ul li {
+	display: none;
+	border-radius: 25px;
+	height: 50;
+
+}
+
+.dropdown ul li:hover ul li {
+	display: block;
+	border-radius: 25px;
+	left: -15%;
+	position: absolute;
+	margin-left: 15px;
+}
+
+.dropdown ul .current li a {
+	background-color: #5F64FF;
+	border-radius: 25px;
+}
+
+.dropdown ul li {
+	
+	float: left;
+	width: 100px;
+	height: 60px;
+	background-color: #333333;
+	opacity: 1.0;
+	line-height: 60px;
+	text-align: center;
+	list-style: none;
+	font-size: 30px;
+	border-radius: 25px;
+}
+
+.dropdown ul li a .current {
+	text-decoration: none;
+	color: white;
+	display: block;
+	border-radius: 25px;
+}
+
+.dropdown ul li a:hover .current{
+	background-color: #454AD5;
+	border-radius: 25px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.twitter {
+	text-align: bottom-left;
+	position: absolute;
+	bottom: 0;
+}
+
+.discord {
+	text-align: left;
+	opacity: 0.9;
+}
+
+.smaller {
+	font-size: 19px;
+}
+input {
+    background-color: transparent;
+    border: 0px solid;
+    color: #CCC;
+    outline: none;
+    text-align:center;
+}
